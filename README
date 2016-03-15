@@ -1,3 +1,17 @@
-Based on https://github.com/jacobSingh/1pass2keepassx
+# 1 password to KeepassX import script
 
-This script was corrected to use Ruby 2.2.1 and to import csv from 1password 6 
+Strongly based on https://github.com/jacobSingh/1pass2keepassx
+This is for my future me.
+
+## Usage
+
+This script was corrected to use Ruby 2.2.1 and to import csv from 1password 6
+
+```ruby
+ruby 1passwordtoKeepassx.rb /path/to/csv > your-file.xml
+```
+
+## Import
+
+Keepassx 2.0 is not able to import XML files. You need then import using Keepassx 0.4 and generates a database.
+Then import the database into Keepassx 2.0.
