@@ -1,0 +1,3 @@
+Based on https://github.com/jacobSingh/1pass2keepassx
+
+This script was corrected to use Ruby 2.2.1 and to import csv from 1password 6 
