@@ -68,4 +68,4 @@ array_of_hashes.each do |row|
 end
 
 doc << XMLDecl.new
-doc.write($stdout,2)
+doc.write($stdout)
