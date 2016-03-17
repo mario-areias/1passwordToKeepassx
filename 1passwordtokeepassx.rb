@@ -51,35 +51,12 @@ rescue
   usage $!
 end
 
-
-def usage (message = '')
-  if message
-    puts "ERROR: #{message}"
-  end
-  puts """
-  Usage: 1pass2keepass.rb 1pass.csv
-  Takes a _TAB_ delimeted csv file from 1password and prints XML suitable for import into keepassX
-"""
-  exit
-end
-
 doc = Document.new
 database = doc.add_element 'database'
 group = database.add_element 'group'
 group.add_element('title').text = 'Internet'
 group.add_element('icon').text = '1'
 
-
-def usage (message = '')
-  if message
-    puts "ERROR: #{message}"
-  end
-  puts """
-  Usage: 1pass2keepass.rb 1pass.csv
-  Takes a _TAB_ delimeted csv file from 1password and prints XML suitable for import into keepassX
-"""
-  exit
-end
 
 array_of_hashes.each do |row|
   entryNode = group.add_element 'entry'
