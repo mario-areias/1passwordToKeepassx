@@ -5,7 +5,7 @@ This is for my future me.
 
 ## Usage
 
-This script was corrected to use Ruby 2.2.1 and to import csv from 1password 6
+This script was corrected to use Ruby 2.3.0 and to import csv from 1password 6
 
 ```ruby
 ruby 1passwordtoKeepassx.rb /path/to/csv > your-file.xml
