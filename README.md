@@ -1,7 +1,6 @@
 # 1 password to KeepassX import script
 
-Strongly based on https://github.com/jacobSingh/1pass2keepassx
-This is for my future me.
+Strongly based on https://github.com/jacobSingh/1pass2keepassx.
 
 ## Usage
 
